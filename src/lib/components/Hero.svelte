@@ -67,15 +67,4 @@
 		height: 100%;
 		object-fit: cover;
 	}
-
-	.hero__topWrapper .tag {
-		position: absolute;
-		top: 16px;
-		left: 16px;
-		padding: 8px 10px;
-		font-weight: 600;
-		font-size: 14px;
-		line-height: 14px;
-		background-color: var(--foreground-inverted);
-	}
 </style>

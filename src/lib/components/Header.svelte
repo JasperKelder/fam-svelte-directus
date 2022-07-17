@@ -11,6 +11,9 @@
 
 	<nav>
 		<ul>
+			<li id="home">
+				<a href="/" class:active={$page.url.pathname === '/'}>Fundament</a>
+			</li>
 			<li>
 				<a href="/articles" class:active={$page.url.pathname === '/articles'}>Blog</a>
 			</li>
@@ -37,7 +40,6 @@
 		position: fixed;
 		width: 100vw;
 		z-index: 2;
-		transition: 0.4s all;
 		background-color: var(--white);
 		border-bottom: 0.2rem solid var(--orange);
 	}
@@ -104,6 +106,26 @@
 		transform: scale(1);
 	}
 
-	@media only screen and (max-width: 600px) {
+	@media only screen and (min-width: 575px) {
+		#home {
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 575px) {
+		#logo {
+			display: none;
+		}
+
+		nav {
+			margin: auto;
+		}
+	}
+
+	@media only screen and (max-width: 425px) {
+		a {
+			font-size: 1.5rem;
+			margin-right: 0.5rem;
+		}
 	}
 </style>
