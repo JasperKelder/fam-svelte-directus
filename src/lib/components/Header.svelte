@@ -95,21 +95,23 @@
 		transition: opacity 300ms, transform 300ms;
 	}
 
-	nav a:hover::after,
-	nav a:focus::after {
-		opacity: 1;
-		transform: translate3d(0, 2px, 0);
-	}
+	@media (hover: hover) {
+		nav a:hover::after,
+		nav a:focus::after {
+			opacity: 1;
+			transform: translate3d(0, 2px, 0);
+		}
 
-	nav li a::after {
-		opacity: 1;
-		transform: scale(0);
-		transform-origin: center;
-	}
+		nav li a::after {
+			opacity: 1;
+			transform: scale(0);
+			transform-origin: center;
+		}
 
-	nav li a:hover::after,
-	nav li a:focus::after {
-		transform: scale(1);
+		nav li a:hover::after,
+		nav li a:focus::after {
+			transform: scale(1);
+		}
 	}
 
 	@media only screen and (min-width: 575px) {
