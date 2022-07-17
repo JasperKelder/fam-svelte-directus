@@ -171,4 +171,12 @@
 		display: flex;
 		justify-content: center;
 	}
+
+	.button {
+		transition: color 0.4s;
+	}
+
+	.button:hover {
+		color: var(--orange);
+	}
 </style>

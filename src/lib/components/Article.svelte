@@ -8,7 +8,6 @@
 		<div class="article__imageWrapper">
 			<img src={getAssetURL(article.cover_image)} alt="" loading="lazy" />
 		</div>
-		<span aria-hidden="true" class="tag">Writing</span>
 	</div>
 	<div class="article__bottomWrapper">
 		<h1 class="article__title">
@@ -25,7 +24,6 @@
 					{`${article.author.first_name} ${article.author.last_name}`}
 				</div>
 				<div class="article__detailInnerTime">{article.publish_date}</div>
-				<div class="article__detailInnerCategory">Writing</div>
 			</div>
 		</div>
 	</div>

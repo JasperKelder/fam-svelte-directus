@@ -8,7 +8,6 @@
 		<div class="hero__imageWrapper">
 			<img src={getAssetURL(article.cover_image)} alt="" loading="lazy" />
 		</div>
-		<span aria-hidden="true" class="tag"> Writing </span>
 	</div>
 	<h1 class="hero__title">
 		<a href={`/articles/${article.id}`}>{article.title}</a>
@@ -23,7 +22,6 @@
 				{`${article.author.first_name} ${article.author.last_name}`}
 			</div>
 			<div>{article.publish_date}</div>
-			<div class="hero__detailCategory">Writing</div>
 		</div>
 	</div>
 </article>

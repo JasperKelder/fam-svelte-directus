@@ -39,6 +39,7 @@
 		z-index: 2;
 		transition: 0.4s all;
 		background-color: var(--white);
+		border-bottom: 0.2rem solid var(--orange);
 	}
 
 	nav {
