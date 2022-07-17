@@ -67,4 +67,9 @@
 		height: 100%;
 		object-fit: cover;
 	}
+
+	.hero__title a:hover {
+		color: var(--orange);
+		transition: color 0.4s;
+	}
 </style>
