@@ -34,4 +34,10 @@
 		color: var(--orange);
 		transition: color 0.4s;
 	}
+
+	@media only screen and (max-width: 640px) {
+		.article__topWrapper {
+			display: none;
+		}
+	}
 </style>

@@ -13,3 +13,11 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	@media only screen and (max-width: 640px) {
+		.articles-grid {
+			margin-left: 2rem;
+		}
+	}
+</style>
