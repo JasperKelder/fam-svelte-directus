@@ -134,4 +134,10 @@
 			margin-right: 0.5rem;
 		}
 	}
+
+	@media only screen and (max-width: 380px) {
+		a {
+			font-size: 1.4rem;
+		}
+	}
 </style>

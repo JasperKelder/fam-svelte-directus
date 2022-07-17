@@ -89,6 +89,7 @@
 		background-image: url('/computer.jpg');
 		background-size: cover;
 		background-position: 50%;
+		background-color: var(--orange);
 	}
 
 	section:nth-of-type(2) {
