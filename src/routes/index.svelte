@@ -5,7 +5,7 @@
 <section>
 	<div class="overlay">
 		<div class="content verbinding">
-			<h1>
+			<h1 id="verbinding">
 				<span>Maak de</span>
 				<span>verbinding</span>
 			</h1>
@@ -22,7 +22,7 @@
 			<span>Style</span>
 		</h2>
 		<div class="flex">
-			<img src="/bakfiets.png" alt="Klanten" />
+			<img id="bakfiets_image" src="/bakfiets.png" alt="Klanten" />
 		</div>
 		<a class="button" href="#concept">Bekijk meer</a>
 	</div>
@@ -35,7 +35,7 @@
 			<span>Concept</span>
 		</h2>
 		<div class="flex">
-			<img src="/lamp.png" alt="Concept" />
+			<img id="lamp_image" src="/lamp.png" alt="Concept" />
 		</div>
 		<a class="button" href="#design">Bekijk meer</a>
 	</div>
@@ -48,7 +48,7 @@
 			<span>Design</span>
 		</h2>
 		<div class="flex">
-			<img src="/feather.png" alt="Design" />
+			<img id="feather_image" src="/feather.png" alt="Design" />
 		</div>
 		<a class="button" href="#techniek">Bekijk meer</a>
 	</div>
@@ -61,7 +61,7 @@
 			<span>Techniek</span>
 		</h2>
 		<div class="flex">
-			<img src="/propeller.png" alt="Techniek" />
+			<img id="techniek_image" src="/propeller.png" alt="Techniek" />
 		</div>
 		<a class="button" href="#persoonlijk">Bekijk meer</a>
 	</div>
@@ -74,7 +74,7 @@
 			<span>Persoonlijk</span>
 		</h2>
 		<div class="flex">
-			<img src="/coffee.png" alt="Contact" />
+			<img id="coffe_image" src="/coffee.png" alt="Contact" />
 		</div>
 		<a class="button" href="/articles">Lees onze blog</a>
 	</div>
@@ -120,7 +120,7 @@
 
 	.content {
 		position: relative;
-		top: 22%;
+		top: 12%;
 	}
 
 	.content > h1 > span,
@@ -165,6 +165,13 @@
 		margin-top: 50px;
 		left: 50%;
 		transform: translate(-50%);
+		top: 55rem;
+	}
+
+	@media only screen and (max-height: 720px) {
+		.content a {
+			top: 35rem;
+		}
 	}
 
 	.flex {
@@ -178,5 +185,22 @@
 
 	.button:hover {
 		color: var(--orange);
+	}
+
+	#verbinding {
+		margin-top: 4rem;
+	}
+
+	@media only screen and (max-width: 500px) {
+		#verbinding span {
+			font-size: 6rem;
+			line-height: 7rem;
+		}
+
+		#bakfiets_image {
+			position: absolute;
+			top: 15rem;
+			width: 110%;
+		}
 	}
 </style>
