@@ -71,7 +71,7 @@
 	<div class="content">
 		<h2>
 			<span>Maak het</span>
-			<span>Persoonlijk</span>
+			<span id="persoonlijk_title">Persoonlijk</span>
 		</h2>
 		<div class="flex">
 			<img id="coffe_image" src="/coffee.png" alt="Contact" />
@@ -201,6 +201,10 @@
 			position: absolute;
 			top: 15rem;
 			width: 110%;
+		}
+
+		#persoonlijk_title {
+			font-size: 7.5rem;
 		}
 	}
 </style>

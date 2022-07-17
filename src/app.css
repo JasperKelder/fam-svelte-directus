@@ -33,6 +33,7 @@ body {
 	color: white;
 	line-height: 120px;
 	text-align: center;
+	white-space: nowrap;
 }
 
 .heroo h1 {
