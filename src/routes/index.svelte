@@ -10,12 +10,12 @@
 				<span>verbinding</span>
 			</h1>
 			<p>Kijk hoe wij jullie wereld kunnen veranderen met onze online of offline mogelijkheden</p>
-			<a class="button" href="/portfolio">Bekijk ons Portfolio</a>
+			<a class="button" href="#style">Bekijk meer</a>
 		</div>
 	</div>
 </section>
 
-<section>
+<section id="style">
 	<div class="content">
 		<h2>
 			<span>Leveren in</span>
@@ -24,59 +24,59 @@
 		<div class="flex">
 			<img src="/bakfiets.png" alt="Klanten" />
 		</div>
-		<a class="button" href="/service">Kijk voor wie we werken</a>
+		<a class="button" href="#concept">Bekijk meer</a>
 	</div>
 </section>
 
-<section>
+<section id="concept">
 	<div class="content">
 		<h2>
 			<span>Een goed</span>
 			<span>Concept</span>
 		</h2>
 		<div class="flex">
-			<img src="/light.png" alt="Concept" />
+			<img src="/lamp.png" alt="Concept" />
 		</div>
-		<a class="button" href="/service">Meer over concepting</a>
+		<a class="button" href="#design">Bekijk meer</a>
 	</div>
 </section>
 
-<section>
+<section id="design">
 	<div class="content">
 		<h2>
 			<span>Maak een mooi</span>
 			<span>Design</span>
 		</h2>
 		<div class="flex">
-			<img src="/veer.png" alt="Design" />
+			<img src="/feather.png" alt="Design" />
 		</div>
-		<a class="button" href="/service">Meer over Design</a>
+		<a class="button" href="#techniek">Bekijk meer</a>
 	</div>
 </section>
 
-<section>
+<section id="techniek">
 	<div class="content">
 		<h2>
 			<span>Verbind de juiste</span>
 			<span>Techniek</span>
 		</h2>
 		<div class="flex">
-			<img src="/propellor.png" alt="Techniek" />
+			<img src="/propeller.png" alt="Techniek" />
 		</div>
-		<a class="button" href="/service">Meer over techniek</a>
+		<a class="button" href="#persoonlijk">Bekijk meer</a>
 	</div>
 </section>
 
-<section>
+<section id="persoonlijk">
 	<div class="content">
 		<h2>
 			<span>Maak het</span>
 			<span>Persoonlijk</span>
 		</h2>
 		<div class="flex">
-			<img src="/koffie.png" alt="Contact" />
+			<img src="/coffee.png" alt="Contact" />
 		</div>
-		<a class="button" href="/contact">Neem contact met ons op</a>
+		<a class="button" href="/articles">Lees onze blog</a>
 	</div>
 </section>
 
@@ -86,7 +86,7 @@
 	}
 
 	section:nth-of-type(1) {
-		background-image: url('/home-2.jpg');
+		background-image: url('/computer.jpg');
 		background-size: cover;
 		background-position: 50%;
 	}

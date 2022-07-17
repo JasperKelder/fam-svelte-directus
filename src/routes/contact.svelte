@@ -11,7 +11,7 @@
 
 <style>
 	section {
-		background-image: url(/voorgevel.jpg);
+		background-image: url(/office.jpg);
 		height: 55vh;
 		background-size: cover;
 		background-repeat: no-repeat;

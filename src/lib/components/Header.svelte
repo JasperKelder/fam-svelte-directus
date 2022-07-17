@@ -5,13 +5,7 @@
 <header>
 	<div>
 		<a href="/" class:active={$page.url.pathname === '/'}>
-			<img
-				id="logo"
-				width="208.659"
-				height="15.297"
-				src="logo-orange.png"
-				alt="Fundament All Media"
-			/>
+			<img id="logo" width="208.659" height="15.297" src="logo.png" alt="Fundament All Media" />
 		</a>
 	</div>
 
