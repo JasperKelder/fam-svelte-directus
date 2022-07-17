@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<h1 class="hero__title">
-		<a href={`/articles/${article.id}`}>{article.title}</a>
+		<a sveltekit:prefetch href={`/articles/${article.id}`}>{article.title}</a>
 	</h1>
 	<p class="hero__excerpt">{article.excerpt}</p>
 	<div class="hero__detail">

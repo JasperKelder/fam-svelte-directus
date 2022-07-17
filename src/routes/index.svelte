@@ -76,7 +76,7 @@
 		<div class="flex">
 			<img id="coffe_image" src="/coffee.png" alt="Contact" />
 		</div>
-		<a class="button" href="/articles">Lees onze blog</a>
+		<a class="button" sveltekit:prefetch href="/articles">Lees onze blog</a>
 	</div>
 </section>
 

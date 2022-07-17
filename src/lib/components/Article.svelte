@@ -11,7 +11,7 @@
 	</div>
 	<div class="article__bottomWrapper">
 		<h1 class="article__title">
-			<a href={`/articles/${article.id}`}>
+			<a sveltekit:prefetch href={`/articles/${article.id}`}>
 				{article.title}
 			</a>
 		</h1>
