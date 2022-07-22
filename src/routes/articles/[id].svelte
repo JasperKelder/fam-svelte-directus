@@ -1,4 +1,4 @@
-<script>
+<script <script>
 	import { getAssetURL } from '$lib/get-asset-url';
 	import MoreArticles from '$lib/components/MoreArticles.svelte';
 

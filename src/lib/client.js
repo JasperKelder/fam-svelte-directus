@@ -15,11 +15,11 @@ async function getDirectusClient() {
 			await directus.auth.static(process.env.DIRECTUS_STATIC_TOKEN);
 		}
 	} catch (err) {
-		if (err.parent.code === 'ECONNREFUSED') {
-			console.error(
-				'Unable to connect to the Directus instance. Make sure the .env file is present and the VITE_DIRECTUS_URL variable is pointing the correct URL.'
-			);
-		}
+		// if (err.parent.code === 'ECONNREFUSED') {
+		// 	console.error(
+		// 		'Unable to connect to the Directus instance. Make sure the .env file is present and the VITE_DIRECTUS_URL variable is pointing the correct URL.'
+		// 	);
+		// }
 	}
 
 	return directus;
